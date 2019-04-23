@@ -1,0 +1,101 @@
+@media (max-width : 768px){
+	div#root{
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media (min-width : 769px){
+	div#root{
+		width: 50%;
+		margin: auto;
+	}
+}
+
+
+div.currency_calculations{
+	select{
+		background: #FFF;
+    	width: 200px;
+    	height: 40px;
+    	color: #000;
+    	font-size: 14px;
+	}
+
+	label{
+		&.error{
+			color: red;
+		}
+	}
+
+	div.form{
+		div.row{
+			padding: 5px;
+			display: block;
+			div:first-child{
+				display: inline-block;
+				width: 30%;
+			}
+
+			div:last-child{
+				display: inline-block;
+				width: 70%;
+			}
+
+			&.merge{
+				width: 100%;
+			}
+		}
+	}
+
+	button{
+		padding: 10px;
+	    background: red;
+	    color: #fff;
+	    text-align: center;
+    	margin: 10px;
+	}
+
+	label{
+		font-weight: 600;
+    	font-size: 16px;
+	}
+
+	input[type="date"]{
+		background: #FFF;
+	    width: 200px;
+	    height: 40px;
+	    color: #000;
+	    font-size: 14px;
+	    border-radius: 5px;
+	}
+
+	div.bitcoin-start-date{
+		margin: 10px;
+		span{
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+}
+
+div#home{
+	div.row{
+		margin: 20px 0;
+	}
+
+	label span.chart_type{
+    	font-weight: 600;
+    	font-size: 18px;
+    	color: #00A;
+    }
+
+	a{
+		color: #fff;
+	    background: red;
+	    text-decoration: none;
+	    padding: 10px;
+	    margin: auto;
+	    display: inline-block;
+	}
+}
